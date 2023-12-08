@@ -17,31 +17,44 @@ MonoBehaviour:
     PortName: Next
     TargetNodeGUID: 33637ef7-0f38-4ba5-b395-5ef2598ec04d
   - BaseNodeGUID: 33637ef7-0f38-4ba5-b395-5ef2598ec04d
-    PortName: A
+    PortName: q
     TargetNodeGUID: bb466b34-0f0e-429a-8401-101b919daa50
   - BaseNodeGUID: 33637ef7-0f38-4ba5-b395-5ef2598ec04d
-    PortName: B
+    PortName: space
+    TargetNodeGUID: e1072da1-ea72-4733-829e-15d265cdf122
+  - BaseNodeGUID: e1072da1-ea72-4733-829e-15d265cdf122
+    PortName: e
     TargetNodeGUID: 0d21d4eb-47bd-48e9-90b0-a16e88d4404b
-  - BaseNodeGUID: bb466b34-0f0e-429a-8401-101b919daa50
-    PortName: B
+  - BaseNodeGUID: e1072da1-ea72-4733-829e-15d265cdf122
+    PortName: q
+    TargetNodeGUID: bb466b34-0f0e-429a-8401-101b919daa50
+  - BaseNodeGUID: e1072da1-ea72-4733-829e-15d265cdf122
+    PortName: rel_space
+    TargetNodeGUID: 382c705f-940f-4642-81b0-c6e5544be86a
+  - BaseNodeGUID: 382c705f-940f-4642-81b0-c6e5544be86a
+    PortName: q
+    TargetNodeGUID: bb466b34-0f0e-429a-8401-101b919daa50
+  - BaseNodeGUID: 382c705f-940f-4642-81b0-c6e5544be86a
+    PortName: e
     TargetNodeGUID: 0d21d4eb-47bd-48e9-90b0-a16e88d4404b
-  - BaseNodeGUID: 33637ef7-0f38-4ba5-b395-5ef2598ec04d
-    PortName: X
-    TargetNodeGUID: 2f66b435-50b9-4e01-959a-ae74131acaf4
   nodes:
+  - NodeGUID: 33637ef7-0f38-4ba5-b395-5ef2598ec04d
+    Position: {x: 239, y: 37}
+    Name: Entry
+    Time: 0.5
+  - NodeGUID: e1072da1-ea72-4733-829e-15d265cdf122
+    Position: {x: 593, y: 107}
+    Name: Jump
+    Time: 0.25
+  - NodeGUID: 382c705f-940f-4642-81b0-c6e5544be86a
+    Position: {x: 887, y: 193}
+    Name: Fall
+    Time: 0.25
   - NodeGUID: 0d21d4eb-47bd-48e9-90b0-a16e88d4404b
-    Position: {x: 939, y: 61}
-    Name: Kick_1
+    Position: {x: 1215, y: 77}
+    Name: Dive
     Time: 0
   - NodeGUID: bb466b34-0f0e-429a-8401-101b919daa50
-    Position: {x: 634, y: -21}
-    Name: Punch
-    Time: 1
-  - NodeGUID: 33637ef7-0f38-4ba5-b395-5ef2598ec04d
-    Position: {x: 332, y: 37}
-    Name: Idle
-    Time: 0.5
-  - NodeGUID: 2f66b435-50b9-4e01-959a-ae74131acaf4
-    Position: {x: 647, y: 143}
-    Name: Jump
+    Position: {x: 1215, y: -39}
+    Name: Dash
     Time: 0
